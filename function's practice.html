@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <script>
+// function percentage (obtain_no,total_no) {
+//     let result = obtain_no / total_no * 100 ;
+//     document.write(result.toFixed(1)) ;
+// }
+// function myfun(){
+//     document.write("hello world");
+// }
+// myfun(); (normal function)
+
+
+// let func = () => {
+//     document.write("hello this is arrow funcTion");
+// }
+// func();   (this is arrow function)
+
+
+// (()=>{
+//     document.write("this is annoymous function ")
+// })();   (we just use one time where we write this code)
+
+// let obtain_no = +prompt("enter obtain marks");
+// let total_no  = +prompt("enter total marks");
+// function percentage(obtain_no,total_no) {
+//     document.write(obtain_no / total_no *  100 +"<br>");
+// }
+// percentage(obtain_no , total_no);
+// document.write(Math.round(5.4))
+// let result = math.floor(math.random() * 100);
+
+for(i = 5; i > 0; i--) {
+    let user_value = +prompt(`welcome to the number gussing game you have  ${i} chances`);
+    if (user_value == result) {
+        document.write("congratulation you selected the right number");
+    }
+    else {
+        document.write(`sorrry you selected the wrong number <br> the right number is ${result}`);
+    }
+    
+}
+
+document.write(result);
+    </script>
+</body>
+</html>
